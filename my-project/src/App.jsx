@@ -18,7 +18,7 @@ function App() {
           <li className='hover:-translate-y-3 duration-300 ease-in-out'><Link to="/Services">Services</Link></li>
           <li className='hover:-translate-y-3 duration-300 ease-in-out'><Link to="/Contact">Contact</Link></li>
         </ul>
-        <button className='bg-black rounded-md p-1 hover:bg-slate-800 duration-200 ease-in-out hover:-translate-y-2 mr-20'>Explore</button>
+        <button className='px-3 bg-transparent rounded-md p-1 hover:bg-slate-800 duration-200 ease-in-out hover:-translate-y-2 mr-20'>Explore</button>
       </nav>
         <Routes>
           <Route path="/" element={<Home />} />
